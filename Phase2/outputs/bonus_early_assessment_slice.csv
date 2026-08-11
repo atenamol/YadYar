@@ -1,0 +1,3 @@
+slice,students,at_risk_students,at_risk_rate,precision_at_risk,recall_at_risk,false_negatives,false_positives
+No early assessment,8,7,0.875,0.875,1.0,0,1
+Submitted early assessment,69,14,0.2028985507246377,0.275,0.7857142857142857,3,29
