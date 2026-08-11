@@ -1,0 +1,3 @@
+model,feature_change,accuracy,precision_at_risk,recall_at_risk,f1_at_risk,pr_auc,fn,fp
+Balanced Logistic Regression,None,0.5714285714285714,0.375,0.8571428571428571,0.5217391304347826,0.5963130863605799,3,30
+Balanced Logistic + has_early_assessment,Added binary early-assessment availability feature,0.5714285714285714,0.375,0.8571428571428571,0.5217391304347826,0.595958277770477,3,30

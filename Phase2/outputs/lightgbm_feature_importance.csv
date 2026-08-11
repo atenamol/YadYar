@@ -1,0 +1,46 @@
+feature,gain_importance
+numeric__avg_score_30d,790.851007938385
+numeric__unique_sites_30d,223.39823734760284
+numeric__active_days_30d,175.2208040356636
+numeric__avg_clicks_per_active_day,131.37572556734085
+numeric__total_clicks_30d,110.89219695329666
+categorical__region_Yorkshire Region,36.87058091163635
+numeric__studied_credits,32.11225241422653
+categorical__imd_band_80-90%,9.45320588350296
+categorical__age_band_35-55,6.673940062522888
+categorical__highest_education_HE Qualification,2.372889995574951
+categorical__gender_M,0.7427560091018677
+categorical__region_West Midlands Region,0.6330620050430298
+categorical__code_module_AAA,0.0
+categorical__region_South Region,0.0
+categorical__region_South East Region,0.0
+categorical__region_Scotland,0.0
+categorical__region_North Western Region,0.0
+categorical__region_North Region,0.0
+categorical__region_London Region,0.0
+categorical__region_Ireland,0.0
+categorical__region_East Midlands Region,0.0
+categorical__region_East Anglian Region,0.0
+categorical__gender_F,0.0
+categorical__code_presentation_2013J,0.0
+categorical__highest_education_Post Graduate Qualification,0.0
+categorical__region_South West Region,0.0
+categorical__highest_education_A Level or Equivalent,0.0
+categorical__highest_education_Lower Than A Level,0.0
+categorical__region_Wales,0.0
+categorical__imd_band_70-80%,0.0
+categorical__imd_band_60-70%,0.0
+categorical__imd_band_50-60%,0.0
+categorical__imd_band_40-50%,0.0
+categorical__imd_band_20-30%,0.0
+categorical__imd_band_30-40%,0.0
+categorical__imd_band_0-10%,0.0
+categorical__imd_band_90-100%,0.0
+categorical__disability_Y,0.0
+categorical__disability_N,0.0
+categorical__age_band_55<=,0.0
+categorical__age_band_0-35,0.0
+categorical__imd_band_?,0.0
+categorical__imd_band_Oct-20,0.0
+numeric__num_of_prev_attempts,0.0
+numeric__assessment_count_30d,0.0

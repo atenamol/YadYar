@@ -1,0 +1,49 @@
+{
+  "threshold": 0.3,
+  "additional_slice": [
+    {
+      "slice": "No early assessment",
+      "students": 8,
+      "at_risk_students": 7,
+      "at_risk_rate": 0.875,
+      "precision_at_risk": 0.875,
+      "recall_at_risk": 1.0,
+      "false_negatives": 0,
+      "false_positives": 1
+    },
+    {
+      "slice": "Submitted early assessment",
+      "students": 69,
+      "at_risk_students": 14,
+      "at_risk_rate": 0.2028985507246377,
+      "precision_at_risk": 0.275,
+      "recall_at_risk": 0.7857142857142857,
+      "false_negatives": 3,
+      "false_positives": 29
+    }
+  ],
+  "feature_improvement": [
+    {
+      "model": "Balanced Logistic Regression",
+      "feature_change": "None",
+      "accuracy": 0.5714285714285714,
+      "precision_at_risk": 0.375,
+      "recall_at_risk": 0.8571428571428571,
+      "f1_at_risk": 0.5217391304347826,
+      "pr_auc": 0.5963130863605799,
+      "fn": 3,
+      "fp": 30
+    },
+    {
+      "model": "Balanced Logistic + has_early_assessment",
+      "feature_change": "Added binary early-assessment availability feature",
+      "accuracy": 0.5714285714285714,
+      "precision_at_risk": 0.375,
+      "recall_at_risk": 0.8571428571428571,
+      "f1_at_risk": 0.5217391304347826,
+      "pr_auc": 0.595958277770477,
+      "fn": 3,
+      "fp": 30
+    }
+  ]
+}
