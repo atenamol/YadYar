@@ -1,0 +1,12 @@
+{
+  "start_day": 0,
+  "end_day": 30,
+  "test_size": 0.2,
+  "random_state": 42,
+  "main_threshold": 0.3,
+  "fn_cost": 5,
+  "fp_cost": 1,
+  "chunksize": 500000,
+  "module": "AAA",
+  "presentation": "2013J"
+}

@@ -1,0 +1,12 @@
+{
+  "input": {
+    "description": "One student profile using only information available through day 30.",
+    "required_feature_count": 16
+  },
+  "output": {
+    "risk_probability": "float in [0, 1]",
+    "at_risk_flag": "boolean based on the configured threshold",
+    "recommended_action": "supportive_human_review or no_flag_at_current_threshold"
+  },
+  "safety_note": "The flag supports human review and is not an automatic academic decision."
+}
