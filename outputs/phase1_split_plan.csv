@@ -1,0 +1,3 @@
+split,n_students,at_risk,not_at_risk,at_risk_rate
+train,306,84,222,0.27450980392156865
+test_reserved_for_phase2,77,21,56,0.2727272727272727
