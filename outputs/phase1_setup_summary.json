@@ -1,0 +1,41 @@
+{
+  "scope": "AAA/2013J",
+  "students": 383,
+  "not_at_risk": 278,
+  "at_risk": 105,
+  "at_risk_rate": 0.2741514360313316,
+  "train_rows": 306,
+  "test_rows_reserved_for_phase2": 77,
+  "raw_feature_count": 16,
+  "categorical_features": [
+    "code_module",
+    "code_presentation",
+    "gender",
+    "region",
+    "highest_education",
+    "imd_band",
+    "age_band",
+    "disability"
+  ],
+  "numeric_features": [
+    "num_of_prev_attempts",
+    "studied_credits",
+    "total_clicks_30d",
+    "active_days_30d",
+    "unique_sites_30d",
+    "avg_clicks_per_active_day",
+    "assessment_count_30d",
+    "avg_score_30d"
+  ],
+  "target_definition": {
+    "1": "Fail or Withdrawn",
+    "0": "Pass or Distinction"
+  },
+  "time_window": "course days 0 through 30",
+  "baseline": "scikit-learn LogisticRegression with preprocessing pipeline",
+  "planned_primary_metrics": [
+    "At-Risk Recall",
+    "PR-AUC"
+  ],
+  "note": "Phase 1 validates data preparation and baseline training; final held-out evaluation is reported in Phase 2."
+}
